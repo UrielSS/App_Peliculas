@@ -10,6 +10,7 @@ const API_KEY=environment.apiKey;
 export class MoviesService {
   private popularesPage=0;
 
+
   constructor(private http: HttpClient) { }
 
   private ejecutarQuery<T>(query: string) {
