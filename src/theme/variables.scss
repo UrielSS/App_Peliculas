@@ -1,2 +1,13 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+:root {
+  --ion-color-nova: #e30613;
+  --ion-color-nova-rgb: 227, 6, 19;
+
+  --ion-color-nova-contrast: #ffffff;
+  --ion-color-nova-contrast-rgb: 255, 255, 255;
+
+  --ion-color-nova-shade: #c20511;
+  --ion-color-nova-tint: #e61f2b;
+}
+

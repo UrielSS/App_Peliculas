@@ -1,0 +1,16 @@
+ion-toolbar {
+  --background: #e30613; // Rojo Cinemex
+  --color: white;
+}
+
+ion-searchbar {
+  --background: transparent;          // Para fondo transparente si quieres
+  --color: white;                     // Texto blanco
+  --placeholder-color: rgba(255,255,255,0.7); // Placeholder blanco con opacidad
+
+  /* Opcional: cambia el color del icono de lupa */
+  --icon-color: white;
+
+  /* Opcional: barra de borde o sombra para que resalte */
+  --box-shadow: 0 0 5px rgba(255,255,255,0.3);
+}

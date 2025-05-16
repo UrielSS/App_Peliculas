@@ -1,1 +1,20 @@
 
+.cinemex-tab-bar {
+  --background: #e30613; // Rojo Cinemex
+  --color: #ffffff;      // Texto e íconos normales
+  --color-selected: #260101; // Color de tab activo (gris claro)
+
+  ion-tab-button {
+    --ripple-color: rgba(255, 255, 255, 0.2);
+    font-weight: 500;
+  }
+
+  ion-icon {
+    font-size: 22px;
+  }
+
+  ion-label {
+    font-size: 12px;
+  }
+}
+

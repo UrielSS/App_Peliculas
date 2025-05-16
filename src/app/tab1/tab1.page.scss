@@ -1,0 +1,20 @@
+ion-toolbar {
+  --background: #e30613; // Rojo Cinemex
+  --color: white;
+}
+
+.cinemex-background {
+  --background: #f2f2f2; // Gris claro de fondo
+}
+
+ion-card-title {
+  color: #e30613; // Rojo para títulos de sección
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+ion-card {
+  border-radius: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
